@@ -78,6 +78,24 @@ public class EditMenu_Controller implements Initializable
             Definition.setCellValueFactory(new PropertyValueFactory<>("Definition"));
             data.clear();
             data = Data.initList(0, IDtoURI(ExcelPath));
+
+            for(int i = 1;; i++) // duyet sheet
+            {
+                try
+                {
+                    for(int j = 0; j < Data.getSheetsRows(i, IDtoURI(ExcelPath)); j++)
+                    {
+                        String word = Data.initList(i, IDtoURI(ExcelPath)).get(j).getWord();
+                        String definition = Data.initList(i, IDtoURI(ExcelPath)).get(j).getDefinition();
+                        boolean isChecked = Data.initList(i, IDtoURI(ExcelPath)).get(j).isChecked();
+                        data.add(new VOCAB(word, definition, isChecked));
+                    }
+                }
+                catch (IndexOutOfBoundsException | BiffException | IOException e)
+                {
+                    break;
+                }
+            }
             TBV_ListVocab.setItems(data);
         }
         catch ( URISyntaxException e)

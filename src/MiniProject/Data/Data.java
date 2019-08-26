@@ -21,10 +21,9 @@ public class Data
     public static ObservableList<VOCAB> initList(int SheetIndex, URI inputFile)
     {
         ObservableList<VOCAB> list = FXCollections.observableArrayList();
-        try {
-            System.out.println(inputFile);
+        try
+        {
             File inputWorkbook = new File(inputFile);
-
             ws.setEncoding("Cp1252");
             w = Workbook.getWorkbook(inputWorkbook, ws);
             Sheet sheet = w.getSheet(SheetIndex);
@@ -32,7 +31,8 @@ public class Data
                 list.add(new VOCAB(sheet.getCell(0, i).getContents(), sheet.getCell(1, i).getContents(),
                         Boolean.valueOf(sheet.getCell(2, i).getContents().toLowerCase())));
             }
-        }catch (IOException | BiffException e)
+        }
+        catch (IOException | BiffException e)
         {
             e.printStackTrace();
         }

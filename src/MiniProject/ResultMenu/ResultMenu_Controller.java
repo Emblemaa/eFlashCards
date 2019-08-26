@@ -118,7 +118,7 @@ public class ResultMenu_Controller implements Initializable {
         Definition.setCellValueFactory(new PropertyValueFactory<>("Definition"));
         TestList=Data.initList(TestDay, IDtoURI(TopicsMenu_Controller.getInputPath()));
             Score.setText(Integer.toString(ScoreResult));
-            if(ScoreResult==3)
+            if(ScoreResult==10)
                 initStrike();
             else gridPane.setVisible(true);
             for (VOCAB vocab : TestList) {

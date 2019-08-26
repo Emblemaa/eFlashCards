@@ -209,7 +209,7 @@ public class TestMenu_Controller implements Initializable
         isWordChosen[randomWord]=true;
 
         Definition.setText(DATA.get(randomWord).getDefinition());
-        if (count == 3)
+        if (count == 10)
         {
             updateUncheckedWord();
             initDataResult();
@@ -230,7 +230,7 @@ public class TestMenu_Controller implements Initializable
                     int inputLength = Word.getText().length();
                     int wordLength = DATA.get(randomWord).getWord().length();
                     try {
-                        if (inputLength==wordLength) {
+                        if (inputLength == wordLength) {
                             if (Word.getText().trim().equalsIgnoreCase(DATA.get(randomWord).getWord().trim()) &&
                                     DATA.get(randomWord).getWord() != null) {
                                 score++;
