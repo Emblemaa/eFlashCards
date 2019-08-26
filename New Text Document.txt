@@ -1,0 +1,9 @@
+1. ch?nh window c
+2. quãng edit qua main menu
+3. url uri...............................
+4. alert, isFileExist........ vô 1 interface
+5. b? message thông báo correct
+6. thay message = form m?i báo t? b? sai trong test (listview)
+
+done: 1, 2, 3
+paused at 5, check button - test controller

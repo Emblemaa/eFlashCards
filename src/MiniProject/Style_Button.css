@@ -1,0 +1,115 @@
+.menuButton
+{
+    -fx-background-color: white;
+   	-fx-background-radius: 0;
+   	-fx-border-radius:0;
+   	-fx-font-family: Calibri;
+   	-fx-font-size: 30;
+   	-fx-font-weight: bold;
+   	-fx-text-fill:black;
+   	-fx-padding: 10;
+   	-fx-pref-width: 200;
+   	-fx-pref-height: 70;
+}
+
+.NextPreviousButton
+{
+    -fx-pref-width: 150;
+   	-fx-pref-height: 65;
+    -fx-background-color: white;
+    -fx-background-radius: 0;
+    -fx-border-radius:0;
+    -fx-font-family: Calibri;
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill:black;
+    -fx-padding: 10;
+}
+
+.showDefButton
+{
+    -fx-background-color: white;
+    -fx-background-radius: 0;
+    -fx-border-radius:0;
+    -fx-font-family: Calibri;
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+    -fx-text-fill:black;
+    -fx-padding: 10;
+}
+
+.backButton
+{
+        -fx-background-color: white;
+        -fx-background-radius: 0;
+        -fx-border-radius:0;
+        -fx-font-family: Calibri;
+        -fx-font-size: 25;
+        -fx-font-weight: bold;
+        -fx-text-fill:black;
+
+}
+
+.addButton
+{
+    -fx-pref-width: 200;
+   	-fx-pref-height: 60;
+        -fx-background-color: white;
+        -fx-background-radius: 0;
+        -fx-border-radius:0;
+        -fx-font-family: Calibri;
+        -fx-font-size: 25;
+        -fx-font-weight: bold;
+        -fx-text-fill:black;
+}
+
+.topicsButton
+{
+     -fx-background-color: white;
+     -fx-background-radius: 0;
+     -fx-border-radius:0;
+     -fx-font-family: Calibri;
+     -fx-font-size: 30;
+     -fx-font-weight: bold;
+     -fx-text-fill:black;
+     -fx-padding: 10;
+     -fx-pref-width: 200;
+     -fx-pref-height: 70;
+}
+
+.menuButton: hover
+{
+    -fx-background-color: #79f28f; /*#1e90ff*/
+    -fx-text-fill: white;
+}
+
+.NextPreviousButton: hover
+{
+    -fx-background-color: #A9A9A9; /*#1e90ff*/
+    -fx-text-fill: #FFFFFF;
+}
+
+.showDefButton: hover
+{
+    -fx-background-color: #A9A9A9; /*#1e90ff*/
+    -fx-text-fill: #FFFFFF;
+}
+
+.backButton: hover
+{
+    -fx-background-color: #A9A9A9; /*#1e90ff*/
+    -fx-text-fill: #FFFFFF;
+}
+
+.addButton: hover
+{
+    -fx-background-color: #A9A9A9;
+    -fx-text-fill: #FFFFFF;
+}
+
+.topicsButton: hover
+{
+    -fx-background-color: #79f28f; /*#1e90ff*/
+    -fx-text-fill: white;
+
+}

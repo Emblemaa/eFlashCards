@@ -1,0 +1,19 @@
+.FalseAnswers
+{
+    -fx-background-color: #DC143C;
+}
+
+.FalseAnswers:selected
+{
+    -fx-background-color: blue;
+}
+
+.CorrectAnswers
+{
+    -fx-background-color: #FFFFFF;
+}
+
+.CorrectAnswers:selected
+{
+    -fx-background-color: #000;
+}

@@ -1,0 +1,10 @@
+.TextField
+{
+    -fx-background-color: #ffffff;
+    -fx-border-radius:0;
+    -fx-background-radius: 0;
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+    -fx-font-family: Calibri;
+}
+

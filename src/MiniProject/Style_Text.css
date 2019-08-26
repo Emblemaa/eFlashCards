@@ -1,0 +1,13 @@
+.eFlashcardText
+{
+    -fx-font-family: Calibri;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-text-fill: #ffffff;
+}
+
+.Word
+{
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="316.0" prefWidth="200.0" styleClass="AnchorPane" stylesheets="@../Style_Window.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MiniProject.TestMenu.TestMenu_Controller">
+   <children>
+      <Button layoutX="9.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" styleClass="backButton" stylesheets="@../Style_Button.css" text="Back" />
+      <Label fx:id="Definition" alignment="CENTER" contentDisplay="CENTER" layoutX="30.0" layoutY="136.0" prefHeight="136.0" prefWidth="240.0" styleClass="Word" stylesheets="@../Style_Text.css" text="Definition " textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Word" layoutX="54.0" layoutY="272.0" prefHeight="50.0" prefWidth="192.0" styleClass="TextField" stylesheets="@../Style_TextField.css" />
+      <Label fx:id="CorrectAlert" alignment="CENTER" contentDisplay="CENTER" layoutX="30.0" layoutY="336.0" prefHeight="90.0" prefWidth="240.0" style="-fx-text-fill: #00FF00;" styleClass="Word" stylesheets="@../Style_Text.css" text="Correct" textAlignment="CENTER" visible="false" wrapText="true">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+      <Label fx:id="WrongAlert" alignment="CENTER" contentDisplay="CENTER" layoutX="31.0" layoutY="337.0" prefHeight="90.0" prefWidth="240.0" style="-fx-text-fill: red;" styleClass="Word" stylesheets="@../Style_Text.css" text="Wrong!" textAlignment="CENTER" visible="false" wrapText="true">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
