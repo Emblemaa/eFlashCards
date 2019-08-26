@@ -247,6 +247,7 @@ public class TestMenu_Controller implements Initializable
                         else if (inputLength > wordLength)
                         {
                             WrongAlert.setVisible(true);
+                            System.out.println(1);
                         }
                         else
                         {
